@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Design</title>
+</head>
+<body>
+    <header>
+        <h1>Department of Computer Science</h1>
+        <a href="#about">About</a> |
+        <a href="#programs">Programs</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#media">Media</a> |
+        <a href="#contact">Contact</a> 
+    </header>
+    <h2 id="about">About the Department</h2>
+    <p>The department od computer science is a terrefic field of study for those who wants to enroll with  <br> arificial intelliegence data science, and networking. We prepare students for modern technological challenges.</p>
+    <figure style="margin-left: 20px;">
+        <img src="Department-of-Computer-Sciene.jpg" alt="Department Image" >
+        <figcaption>Computer Science Department Building</figcaption>
+    </figure>
+    <details>
+        <summary>Read More About Our Mission</summary>
+        <p>Our Mission is to foster innovation, critical thinking, and problem-solving skills through cutting-edge research and industry<br>collaboration.</p>
+    </details>
+    <hr>
+    <h2 id="programs">Programs Offered</h2>
+    <ol>
+        <li>BSc in Computer Science</li>
+        <li>MSc in Computer Science</li>
+        <li>PhD in Computer Science</li>
+    </ol>
+    <h3>Program Duration</h3>
+    <table border="1">
+        <tr>
+            <td><strong>Program</strong></td>
+            <td><strong>Duration</strong></td>
+        </tr>
+        <tr>
+            <td>BSc</td>
+            <td>4 Years</td>
+        </tr>
+        <tr>
+            <td>MSc</td>
+            <td>2 Years</td>
+        </tr>
+        <tr>
+            <td>PhD</td>
+            <td>3-5 Years</td>
+        </tr>
+    </table>
+    <h3>Enrollment Capacity</h3>
+    <p>BSc Program: <progress value="80" max="100" style="accent-color: green;"></progress> 80%</p>
+    <p>MSc Program: <progress value="60" max="100" style="accent-color: green;"></progress> 60%</p>
+    <p>PhD Program: <progress value="40" max="100" style="accent-color: green;"></progress> 40%</p>
+    <hr>
+    <h2 id="courses">Key Courses</h2>
+    <dl>
+        <dt>Programing Fundamentals</dt>
+        <dd>intorduction to programming concepts and logic building.</dd>
+        <dt>Data Structures</dt>
+        <dd>Study of efficent data organizaton techniques.</dd>
+        <dt>Database Systems</dt>
+        <dd>Design and management of relational Database.</dd>
+    </dl>
+    <hr>
+    <h2 id="media">Department Media</h2>
+    <h3>Introduction Video</h3>
+    <video width="640px" height="270px" controls loop>
+        <source src="" type="video/mp4"/>
+        <p>Failed to load video</p>
+    </video>
+    <h3>Department Podcast</h3>
+    <audio controls loop>
+        <source src="" type="audio/mp4" />
+        <p>Failed to load audio</p>
+    </audio>
+    <h3>Virtual Tour (YouTube)</h3>
+    <iframe width="480" height="250"></iframe>
+    <hr>
+    <h2 id="contact">Contact Us</h2>
+    <form>
+        <p>
+            <label>Full Name:<br> <input type="text" name="fullname" /></label>
+        </p>
+        <p>
+            <label>Email:<br> <input type="text" name="email" /></label>
+        </p>
+        <p>Select Program<br>
+            <select>
+                <option value="BSc">BSc</option>
+                <option value="MSc">MSc</option>
+                <option value="PhD">PhD</option>
+            </select>
+        </p>
+        <p>
+            <label>Message: <br> <textarea id="message" style="width: 300px; height: 100px;"></textarea></label>
+        </p>
+        <input type="submit" value="Submit" />
+        <hr>
+    </form>
+    <footer style="margin-bottom: 30px;">&copy; 2026 Depatment of Computer Science | <a href="info@csdept.com">info@csdept.com</a></footer>
+</body>
+</html>
